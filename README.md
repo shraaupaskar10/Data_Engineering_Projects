@@ -1,8 +1,20 @@
-Implement Complete Data Pipeline Data Engineering Project using Spotify 
-* Integrating with Spotify API and extracting Data
-* Deploying code on AWS Lambda for Data Extraction
-* Adding trigger to run the extraction automatically 
-* Writing transformation function
-* Building automated trigger on transformation function 
-* Store files on S3 properly
-* Building Analytics Tables on data files using Glue and Athena
+# Spotify ETL Pipeline with Python and AWS
+
+## Overview
+This project demonstrates a Spotify data extraction, transformation, and loading (ETL) pipeline using Python and AWS services.
+
+## Project Files
+- `spitify_api_data_extract.py` — Spotify API data extraction
+- `spotify_transformation_load_function.py` — Transformation and loading logic
+- `Spotify data pipeline project python AWS.ipynb` — Jupyter notebook for the project
+
+## Technologies
+- Python
+- Spotify API
+- AWS
+
+## Setup
+Install the required Python packages and configure your Spotify API credentials using environment variables before running the scripts.
+
+## Security
+Never commit API secrets, access tokens, or AWS credentials.
